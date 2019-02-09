@@ -1,7 +1,7 @@
 import Page from "../components/Page"
 
 export default () => (
-  <Page>
+  <Page title="Datenschutz">
     <div className="container">
         <h1>Datenschutz</h1>
     </div>

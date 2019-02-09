@@ -5,8 +5,8 @@ import Footer from "./Footer";
 
 export default props => (
   <div>
-    <Header />
+    <Header title={props.title} noHeader={props.noHeader} />
     {props.children}
-    <Footer />
+    <Footer stickyFooter={props.stickyFooter}/>
   </div>
 )

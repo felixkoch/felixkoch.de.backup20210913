@@ -1,8 +1,8 @@
 import Page from "../components/Page";
 
 export default () => (
-  <Page>
-    <div className="container">
+  <Page title="Felix Koch" noHeader={true} stickyFooter={true}>
+    <div className="container start">
       <div className="d-md-flex justify-content-center">
         <div className="p-3">
           <img
