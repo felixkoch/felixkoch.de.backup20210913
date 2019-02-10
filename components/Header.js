@@ -14,7 +14,10 @@ export default props => (
         integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7"
         crossOrigin="anonymous"
       />
-
+      <meta
+        name="viewport"
+        content="width=device-width, height=device-height, initial-scale=1"
+      />
       <title>{props.title}</title>
     </Head>
 
