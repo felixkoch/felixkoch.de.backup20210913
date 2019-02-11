@@ -1,7 +1,11 @@
+import Head from "next/head";
 import Page from "../components/Page";
 
 export default () => (
   <Page title="Felix Koch" noHeader={true} stickyFooter={true}>
+    <Head>
+      <meta name="description" content="Vater, Entwickler, Imker" />
+    </Head>
     <div className="container start">
       <div className="d-md-flex justify-content-center">
         <div className="p-3">
