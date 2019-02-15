@@ -9,7 +9,7 @@
     "build": "next build",
     "export": "next export",
     "start": "next start",
-    "deploy": "aws s3 rm s3://testbucket.felixkoch.de --recursive"
+    "deploy": "aws s3 sync out s3://felixkoch.de && aws cloudfront create-invalidation --distribution-id E3VOMFT8V4P58T --path /*"
   },
   "author": "",
   "license": "ISC",
